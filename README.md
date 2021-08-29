@@ -64,3 +64,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# Clickjob-Project" 
 "# Clickjob-Project" 
+
+## ClickJob Project Setup
+
+1. `compser install`
+2. `npm install`
+3. `npm run dev`
+4. .env generate you can refer [.env.example](.env.example)
+5. `php artisan key:generate`
+6. `php artisan migrate:fresh --seed`
+7. `php artisan serve`
